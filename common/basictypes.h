@@ -1,6 +1,5 @@
-// Copyright 2016 The maodoutech Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
+// Copyright (c) 2016 Maodou.tech, Inc. All Rights Reserved
+// Author: Zhang Shilong (jack_zsl@163.com)
 
 // This file contains definitions of our old basic integral types
 // ((u)int{8,16,32,64}) and further includes. I recommend that you use the C99
