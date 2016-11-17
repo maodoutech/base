@@ -28,11 +28,6 @@ inline void BuildLookupTable(const StringPiece& characters_wanted,
 
 }  // namespace
 
-#if !defined(COMPILER_MSVC)
-template class BasicStringPiece<std::string>;
-template class BasicStringPiece<string16>;
-#endif
-
 bool operator==(const StringPiece& x, const StringPiece& y) {
   if (x.size() != y.size())
     return false;
