@@ -4,6 +4,7 @@ project(base.library)
 
 include_directories("./")
 include_directories("./common")
+include_directories("./strings")
 
 aux_source_directory(common COMMON_SRC)
 
