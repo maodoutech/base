@@ -25,4 +25,4 @@ inline uint32_t Hash(const std::string& str) {
 
 }  // namespace base
 
-#endif  // BASE_COMMON_HASH_H_
+#endif

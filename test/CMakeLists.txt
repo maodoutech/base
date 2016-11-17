@@ -12,5 +12,7 @@ aux_source_directory(. test_file)
 
 FOREACH(src ${test_file})
     MESSAGE( ${src} )
-    add_executable(Demo ${src})
+    STRING( REPLACE "./" "" prj ${src})
+    STRING( REPLACE ".cpp" "" prj ${prj})
+    add_executable(${prj} ${src})
 ENDFOREACH()
