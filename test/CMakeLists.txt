@@ -7,6 +7,7 @@ include_directories(../)
 LINK_DIRECTORIES(../)
 
 LINK_LIBRARIES(base)
+LINK_LIBRARIES(pthread)
 
 aux_source_directory(. test_file)
 
