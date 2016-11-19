@@ -11,9 +11,11 @@ aux_source_directory(common COMMON_SRC)
 aux_source_directory(strings STRINGS_SRC)
 aux_source_directory(threading THREADING_SRC)
 
+aux_source_directory(third_party/icu ICU_SRC)
+
 LINK_LIBRARIES(pthread)
 
-add_library(base ${COMMON_SRC} ${STRINGS_SRC} ${THREADING_SRC})
+add_library(base ${COMMON_SRC} ${STRINGS_SRC} ${THREADING_SRC} ${ICU_SRC})
 
 add_subdirectory(test)
 
